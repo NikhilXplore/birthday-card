@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="ribbon">
+        <div class="ribbonL"><img src="images/ribbon.png" alt="" class="ribbonimage ri1"></div>
+        <div class="ribbonR"><img src="images/ribbon.png" alt="" class="ribbonimage ri2"></div>
+    </div>
+    <div class="contant">
+        <div class="wish">
+            <div class="happy">
+                <span>H</span>
+                <span>a</span>
+                <span>p</span>
+                <span>p</span>
+                <span>y</span>
+            </div>
+            <div class="birthday">
+                <span>B</span>
+                <span>i</span>
+                <span>r</span>
+                <span>t</span>
+                <span>h</span>
+                <span>d</span>
+                <span>a</span>
+                <span>y</span>
+            </div>
+        </div>
+        <div class="cake pop"><img src="images/JtY91BKeuXHJC.webp" alt=""></div>
+    </div>
+    <div class="buttons">
+        <div class="date pop">17- july -2025</div>
+        <button class="present pop"><a href="Growing flower/index.html">For you</a></button>
+    </div>
+    <div class="gif">
+        <img src="images/mewmew.gif" alt="" class="mewgif popd">
+    </div>
+
+    <!-- for decorations -->
+    <img src="images/decorate_flower.png" alt="" class="decorate_flower1 popd">
+    <img src="images/decorate_flower.png" alt="" class="decorate_flower2 popd">
+    <img src="images/decorate_flower.png" alt="" class="decorate_flower3 popd">
+    <img src="images/decorate_flower.png" alt="" class="decorate_flower4 popd">
+
+    <img src="images/smiley_icon.png" class="smile popd">
+
+
+
+    <div class="footer">
+        <img src="images/decorate.png" alt="">
+    </div>
+
+    <canvas id="canfetti-canvas"></canvas>
+
+
+
+
+    <script src="confetti.js"></script>
+    <script>
+        setTimeout(()=>{
+            startConfetti();
+        }, 3000)
+        
+        setTimeout(()=>{
+            stopConfetti();
+        }, 5500);
+    </script>
+</body>
+
+</html>
